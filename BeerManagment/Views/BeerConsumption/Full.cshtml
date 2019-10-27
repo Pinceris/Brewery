@@ -1,0 +1,17 @@
+﻿@model BeerManagment.Models.BeerConsumption.BeerNameTypeConsume
+
+@{
+    ViewBag.Title = "Statistics";
+
+    Html.RenderPartial("ConsumeName", Model.ByName);
+
+}
+
+<h2>Full</h2>
+
+@{
+    Html.RenderPartial("ConsumeType", Model.ByType);
+
+}
+
+@Html.ActionLink("View drinking transcripts", "Index", "BeerConsumption")
