@@ -1,10 +1,6 @@
-﻿using BeerManagment.Models.Beer;
-using BeerManagment.Models.BeerType;
-using System;
+﻿using BeerManagment.Models.BeerType;
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
-using System.Web;
 using System.Web.Mvc;
 
 namespace BeerManagment.Controllers
